@@ -1,0 +1,216 @@
+body {
+  width: 550px;
+  height: 33000px;
+  border: 1px solid red;
+  /* margin: 0; */
+  margin-top: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 15px;
+  padding-right: 0px;
+  box-sizing: border-box;
+}
+p, h3 {
+  margin: 0px;
+}
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 90px;
+  padding: 10px;
+  background-color: white;
+  z-index: 100;
+}
+.resize {
+  height: 42px;
+  width: 42px;
+  border-radius: 50px;
+}
+.dots {
+  /* height: 10px; */
+  
+}
+.upg-txt {
+  font-weight: bold;
+}
+.pro-x-upg {
+  display: flex;
+  justify-content: space-between;
+}
+.upg-3dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.for-fol {
+  position: relative;
+  top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.for-fol p {
+  font-size: 20px;
+}
+.for {
+  /* position: relative; */
+  top: 10px;
+}
+.blue-und {
+  position: absolute;
+  top: 30px;
+  height: 5px;
+  width: 60px;
+  background-color: #2199e9;
+  border-radius: 25px;
+}
+.for p {
+  font-weight: bold;
+}
+.border-bottom {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  width: 580px;
+  border-bottom: 1px solid #626b70;
+}
+.first-profile,
+.second-profile,
+.third-profile {
+  display: flex;
+  position: relative;
+}
+.p-pic {
+  padding: 0px 10px 0px 10px;
+}
+.p-pic-edit {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.u-cap-pic {
+  display: flex;
+  flex-direction: column;
+}
+.f-name-username-gork-3dot {
+  display: flex;
+  justify-content: space-between;
+}
+.f-name-emoji {
+  display: flex;
+  gap: 3px;
+}
+.gork-icon-edit, .dots-3-edit {
+  height: 20px;
+  width: 20px;
+}
+.gork-3dots {
+  display: flex;
+}
+.caption {
+  margin-bottom: 5px;
+}
+.caption span {
+  color: #4ca0ce;
+}
+.cover-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.cover-pic-edit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.com-ret-like-bookm-share {
+  display: flex;
+}
+.chart-icon-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 32px;
+}
+.bookm-share {
+  display: flex;
+}
+.pro-bottom-radius {
+  position: absolute;
+  bottom: 154px;
+  border-bottom: 1px solid #626b70;
+  width: 100%;
+}
+.pro-bottom-radius-2 {
+  position: absolute;
+  bottom: 30px;
+  border-bottom: 1px solid #626b70;
+  width: 100%;
+}
+.com-ret-like-bookm-share {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* background-color: lightblue; */
+}
+.com-icon img,
+.like-icon img {
+  height: 20px;
+  width: 20px;
+}
+.chart-icon-edit {
+  margin-top: 0px;
+  height: 1px
+  width: 1px;
+}
+.bookm-share {
+  display: flex;
+  gap: 15px;
+}
+.share-icon img,
+.bookm-icon img {
+  height: 25px;
+  width: 25px;
+}
+.com-icon {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.ret-icon {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 37px;
+  align-items: center;
+  justify-content: center;
+}
+.ret-icon img {
+  height: 25px;
+  width: 25px;
+}
+.emoji img {
+  height: 12px;
+  width: 12px;
+}
+.ret-icon p,
+.com-icon p, 
+.like-icon p,
+.count p {
+  font-size: 13px;
+}
+.like-icon {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 37px;
+}
